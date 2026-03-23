@@ -1,0 +1,37 @@
+header{
+    text-align: center;
+    background-color: rgb(171, 236, 235);
+    padding: 20px;
+}
+nav{
+    background-color: rgb(197, 255, 254);
+    padding: 10px;
+    margin: 5px;
+}
+section{
+    background-color: rgb(235, 255, 255);
+    padding: 15px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+h2 {
+    color: black;
+}
+li {
+    padding: 7px;
+}
+img {
+    padding: 7px;
+}
+button {
+    background-color: #c08cf0;
+    color: black;
+    border-radius: 15px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(249, 197, 53);
+    padding: 5px;
+}
