@@ -4,7 +4,7 @@ header{
     padding: 20px;
 }
 nav{
-    background-color: rgb(197, 255, 254);
+    background-color: rgb(205, 253, 252);
     padding: 10px;
     margin: 5px;
 }
@@ -32,6 +32,38 @@ button {
 }
 footer{
     text-align: center;
-    background-color: rgb(249, 197, 53);
+    background-color: rgb(146, 222, 221);
     padding: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "title-1 content-1"
+    "title-2 content-2";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: dodgerblue;
+  padding: 5px;
+}
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container div.title-1 {
+  grid-area: title-1;
+}
+.container div.content-1 {
+  grid-area: content-1;
+}
+.container div.title-2 {
+  grid-area: title-2;
+}
+.container div.content-2 {
+  grid-area: content-2;
 }
